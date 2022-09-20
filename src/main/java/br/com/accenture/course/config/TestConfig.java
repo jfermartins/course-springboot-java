@@ -1,4 +1,4 @@
-package com.educandoweb.course.config;
+package br.com.accenture.course.config;
 
 import java.time.Instant;
 import java.util.Arrays;
@@ -10,16 +10,16 @@ import org.springframework.context.annotation.Profile;
 
 import com.educandoweb.course.entities.OrderItem;
 import com.educandoweb.course.entities.Payment;
-import com.educandoweb.course.entities.Product;
 import com.educandoweb.course.repositories.OrderItemRepository;
-import com.educandoweb.course.repositories.ProductRepository;
 
 import br.com.accenture.course.entities.Category;
 import br.com.accenture.course.entities.Order;
+import br.com.accenture.course.entities.Product;
 import br.com.accenture.course.entities.User;
 import br.com.accenture.course.entities.enums.OrderStatus;
 import br.com.accenture.course.repositories.CategoryRepository;
 import br.com.accenture.course.repositories.OrderRepository;
+import br.com.accenture.course.repositories.ProductRepository;
 import br.com.accenture.course.repositories.UserRepository;
 
 @Configuration
