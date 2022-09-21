@@ -8,16 +8,15 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import com.educandoweb.course.entities.Payment;
-import com.educandoweb.course.repositories.OrderItemRepository;
-
 import br.com.accenture.course.entities.Category;
 import br.com.accenture.course.entities.Order;
 import br.com.accenture.course.entities.OrderItem;
+import br.com.accenture.course.entities.Payment;
 import br.com.accenture.course.entities.Product;
 import br.com.accenture.course.entities.User;
 import br.com.accenture.course.entities.enums.OrderStatus;
 import br.com.accenture.course.repositories.CategoryRepository;
+import br.com.accenture.course.repositories.OrderItemRepository;
 import br.com.accenture.course.repositories.OrderRepository;
 import br.com.accenture.course.repositories.ProductRepository;
 import br.com.accenture.course.repositories.UserRepository;
