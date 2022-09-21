@@ -10,10 +10,9 @@ import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
-import com.educandoweb.course.services.exceptions.DatabaseException;
-
 import br.com.accenture.course.entities.User;
 import br.com.accenture.course.repositories.UserRepository;
+import br.com.accenture.course.services.exceptions.DatabaseException;
 import br.com.accenture.course.services.exceptions.ResourceNotFoundException;
 
 @Service
